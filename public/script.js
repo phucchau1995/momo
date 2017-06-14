@@ -1,5 +1,5 @@
 //create firebase reference
-var dbRef = new Firebase("https://contactsbooks.firebaseio.com/");
+var dbRef = new Firebase("https://momo-c2b7e.firebaseio.com/");
 var contactsRef = dbRef.child('contacts')
 var usersRef = dbRef.child('users')
 var auth = null;

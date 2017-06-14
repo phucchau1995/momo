@@ -1,0 +1,28 @@
+[debug] [2017-06-14T06:41:07.025Z] ----------------------------------------------------------------------
+[debug] [2017-06-14T06:41:07.029Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Phuoc\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-14T06:41:07.029Z] CLI Version:  3.9.1
+[debug] [2017-06-14T06:41:07.029Z] Platform:     win32
+[debug] [2017-06-14T06:41:07.029Z] Node Version: v7.2.1
+[debug] [2017-06-14T06:41:07.029Z] Time:         Wed Jun 14 2017 13:41:07 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-14T06:41:07.029Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-14T06:41:07.078Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-14T06:41:07.078Z] > authorizing via signed-in user
+[debug] [2017-06-14T06:41:07.093Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/momo-c71a9  
+ Wed Jun 14 2017 13:41:07 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-14T06:41:08.563Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-14T06:41:08.563Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/momo-c71a9/tokens  
+ Wed Jun 14 2017 13:41:08 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-14T06:41:09.449Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Sites\momo'...
+[info] 
+[debug] [2017-06-14T06:41:09.449Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/momo-c71a9  
+ Wed Jun 14 2017 13:41:09 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-14T06:41:10.628Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-14T06:41:10.628Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/67625472533/clients/_:getWebAppConfig  
+ Wed Jun 14 2017 13:41:10 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-06-14T06:41:11.629Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
